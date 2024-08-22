@@ -3252,10 +3252,9 @@ table.alt tbody tr td {
 
 /* Additional styling to fix mobile video overflow */
 .video-player {
-	width: 100%;
+	width: 960px;
 	max-width: 100%;
 	overflow: hidden;
-	padding-bottom: 56.25%;
 	position: relative;
 	margin: 0 auto;
 	box-sizing: border-box;
