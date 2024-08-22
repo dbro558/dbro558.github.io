@@ -3250,6 +3250,16 @@ table.alt tbody tr td {
 	height: 100%;
 }
 
+/* Additional styling to fix mobile video overflow */
+.video-player {
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
 
 /* Pagination */
 
